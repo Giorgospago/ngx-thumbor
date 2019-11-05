@@ -21,7 +21,7 @@
         "start": "ng serve",
         "updateVersions": "npm version patch && cd projects/ngx-thumbor && npm version patch && cd ../../",
         "build": "ng build NgxThumbor",
-        "publishToNpm": "npm publish",
+        "publishToNpm": "cd projects/ngx-thumbor && npm publish && cd ../../",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"
@@ -32,14 +32,11 @@
         "thumbor-url-builder": "^0.1.1"
     },
     "dependencies": {
-        "@angular/animations": "~8.2.13",
         "@angular/common": "~8.2.13",
         "@angular/compiler": "~8.2.13",
         "@angular/core": "~8.2.13",
-        "@angular/forms": "~8.2.13",
         "@angular/platform-browser": "~8.2.13",
         "@angular/platform-browser-dynamic": "~8.2.13",
-        "@angular/router": "~8.2.13",
         "rxjs": "~6.5.3",
         "thumbor-url-builder": "^0.1.1",
         "tslib": "^1.10.0",
