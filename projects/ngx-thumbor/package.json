@@ -2,8 +2,8 @@
     "name": "ngx-thumbor",
     "version": "0.0.11",
     "peerDependencies": {
-        "@angular/common": "8.x",
-        "@angular/core": "8.x",
+        "@angular/common": "^8.2.11",
+        "@angular/core": "^8.2.11",
         "thumbor-url-builder": "^0.1.1"
     }
 }
