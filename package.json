@@ -1,6 +1,6 @@
 {
     "name": "ngx-thumbor",
-    "version": "0.0.5",
+    "version": "0.0.4",
     "description": "A simple directive that auto generating the thumbor url by the options you have passed",
     "author": "George Pagonoudis, Lefteris Panelas",
     "repository": {
@@ -20,7 +20,7 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build NgxThumbor",
-        "prebuild": "npm version patch && cd projects/ngx-thumbor && npm version patch && cd ../../",
+        "a--prebuild": "npm version patch && cd projects/ngx-thumbor && npm version patch && cd ../../",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"
