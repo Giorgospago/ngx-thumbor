@@ -3,18 +3,18 @@ import {NgxThumborConfig} from "./interfaces/ngxthumbor.interface";
 import * as Thumbor from "thumbor";
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class NgxThumborService {
 
-  private _thumbor: Thumbor;
+    private _thumbor: Thumbor;
 
-  constructor(@Inject('config') private config: NgxThumborConfig) {
-    this._thumbor = new Thumbor(config.key, config.server);
-  }
+    constructor(@Inject('config') private config: NgxThumborConfig) {
+        this._thumbor = new Thumbor(config.key, config.server);
+    }
 
-  get thumbor() {
-    return this._thumbor;
-  }
+    get thumbor() {
+        return this._thumbor;
+    }
 
 }

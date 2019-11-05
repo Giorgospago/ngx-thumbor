@@ -1,69 +1,70 @@
 {
-  "name": "ngx-thumbor",
-  "version": "0.0.1",
-  "description": "A simple directive that auto generating the thumbor url by the options you have passed",
-  "author": "George Pagonoudis, Lefteris Panelas",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Giorgospago/ngx-thumbor.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Giorgospago/ngx-thumbor/issues"
-  },
-  "homepage": "https://github.com/Giorgospago/ngx-thumbor",
-  "keywords": [
-    "angular",
-    "thumbor"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build NgxThumbor",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
-  "peerDependencies": {
-    "@angular/common": "~8.2.13",
-    "@angular/core": "~8.2.13"
-  },
-  "dependencies": {
-    "@angular/animations": "~8.2.13",
-    "@angular/common": "~8.2.13",
-    "@angular/compiler": "~8.2.13",
-    "@angular/core": "~8.2.13",
-    "@angular/forms": "~8.2.13",
-    "@angular/platform-browser": "~8.2.13",
-    "@angular/platform-browser-dynamic": "~8.2.13",
-    "@angular/router": "~8.2.13",
-    "rxjs": "~6.5.3",
-    "thumbor": "^0.1.5",
-    "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.17",
-    "@angular-devkit/build-ng-packagr": "~0.803.17",
-    "@angular/cli": "~8.3.17",
-    "@angular/compiler-cli": "~8.2.13",
-    "@angular/language-service": "~8.2.13",
-    "@types/node": "~12.12.5",
-    "@types/jasmine": "~3.4.5",
-    "@types/jasminewd2": "~2.0.8",
-    "codelyzer": "^5.2.0",
-    "jasmine-core": "~3.5.0",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~4.4.1",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~2.1.0",
-    "karma-jasmine": "~2.0.1",
-    "karma-jasmine-html-reporter": "^1.4.2",
-    "ng-packagr": "^5.7.1",
-    "protractor": "~5.4.2",
-    "ts-node": "~8.4.1",
-    "tsickle": "^0.37.0",
-    "tslint": "~5.20.0",
-    "typescript": "~3.5.3"
-  }
+    "name": "ngx-thumbor",
+    "version": "0.0.2",
+    "description": "A simple directive that auto generating the thumbor url by the options you have passed",
+    "author": "George Pagonoudis, Lefteris Panelas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Giorgospago/ngx-thumbor.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Giorgospago/ngx-thumbor/issues"
+    },
+    "homepage": "https://github.com/Giorgospago/ngx-thumbor",
+    "keywords": [
+        "angular",
+        "thumbor"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build NgxThumbor",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e"
+    },
+    "peerDependencies": {
+        "@angular/common": "~8.2.13",
+        "@angular/core": "~8.2.13",
+        "thumbor": "^0.1.5"
+    },
+    "dependencies": {
+        "@angular/animations": "~8.2.13",
+        "@angular/common": "~8.2.13",
+        "@angular/compiler": "~8.2.13",
+        "@angular/core": "~8.2.13",
+        "@angular/forms": "~8.2.13",
+        "@angular/platform-browser": "~8.2.13",
+        "@angular/platform-browser-dynamic": "~8.2.13",
+        "@angular/router": "~8.2.13",
+        "rxjs": "~6.5.3",
+        "thumbor": "^0.1.5",
+        "tslib": "^1.10.0",
+        "zone.js": "~0.10.2"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "~0.803.17",
+        "@angular-devkit/build-ng-packagr": "~0.803.17",
+        "@angular/cli": "~8.3.17",
+        "@angular/compiler-cli": "~8.2.13",
+        "@angular/language-service": "~8.2.13",
+        "@types/node": "~12.12.5",
+        "@types/jasmine": "~3.4.5",
+        "@types/jasminewd2": "~2.0.8",
+        "codelyzer": "^5.2.0",
+        "jasmine-core": "~3.5.0",
+        "jasmine-spec-reporter": "~4.2.1",
+        "karma": "~4.4.1",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage-istanbul-reporter": "~2.1.0",
+        "karma-jasmine": "~2.0.1",
+        "karma-jasmine-html-reporter": "^1.4.2",
+        "ng-packagr": "^5.7.1",
+        "protractor": "~5.4.2",
+        "ts-node": "~8.4.1",
+        "tsickle": "^0.37.0",
+        "tslint": "~5.20.0",
+        "typescript": "~3.5.3"
+    }
 }
