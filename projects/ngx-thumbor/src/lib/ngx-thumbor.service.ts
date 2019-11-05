@@ -1,16 +1,16 @@
 import {Inject, Injectable} from '@angular/core';
 import {NgxThumborConfig} from "./interfaces/ngxthumbor.interface";
-import * as Thumbor from "thumbor";
+import * as ThumborUrlBuilder from "thumbor-url-builder";
 
 @Injectable({
     providedIn: 'root'
 })
 export class NgxThumborService {
 
-    private _thumbor: Thumbor;
+    private _thumbor: ThumborUrlBuilder;
 
     constructor(@Inject('config') private config: NgxThumborConfig) {
-        this._thumbor = new Thumbor(config.key, config.server);
+        this._thumbor = new ThumborUrlBuilder(config.key, config.server);
     }
 
     get thumbor() {

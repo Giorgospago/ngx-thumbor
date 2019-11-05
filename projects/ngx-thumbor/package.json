@@ -4,6 +4,6 @@
     "peerDependencies": {
         "@angular/common": "8.x",
         "@angular/core": "8.x",
-        "thumbor": "^0.1.5"
+        "thumbor-url-builder": "^0.1.1"
     }
 }
