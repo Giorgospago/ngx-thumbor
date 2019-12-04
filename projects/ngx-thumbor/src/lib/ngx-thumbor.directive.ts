@@ -2,7 +2,7 @@ import {Directive, ElementRef, Input, OnInit} from "@angular/core";
 import {NgxThumborService} from "./ngx-thumbor.service";
 
 @Directive({
-    selector: "img[thumb]"
+    selector: "[thumbor]"
 })
 export class ThumbDirective implements OnInit {
 
