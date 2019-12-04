@@ -1,10 +1,11 @@
+import {CommonModule} from '@angular/common';
 import {NgModule, ModuleWithProviders} from '@angular/core';
 import {ThumbDirective} from './ngx-thumbor.directive';
 import {NgxThumborConfig} from "./interfaces/ngxthumbor.interface";
 
 @NgModule({
     declarations: [ThumbDirective],
-    imports: [],
+    imports: [CommonModule],
     exports: [ThumbDirective]
 })
 export class NgxThumborModule {
