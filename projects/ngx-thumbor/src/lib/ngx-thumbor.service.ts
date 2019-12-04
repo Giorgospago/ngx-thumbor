@@ -7,6 +7,7 @@ import * as ThumborUrlBuilder from "thumbor-url-builder";
 })
 export class NgxThumborService {
 
+    // tslint:disable-next-line:variable-name
     private _thumbor: ThumborUrlBuilder;
 
     constructor(@Inject('config') private config: NgxThumborConfig) {
