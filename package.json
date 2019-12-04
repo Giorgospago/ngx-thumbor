@@ -1,6 +1,6 @@
 {
     "name": "ngx-thumbor",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "A simple directive that auto generating the thumbor url by the options you have passed",
     "author": "George Pagonoudis, Lefteris Panelas",
     "repository": {
