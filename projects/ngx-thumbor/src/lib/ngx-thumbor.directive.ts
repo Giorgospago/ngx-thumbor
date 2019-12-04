@@ -102,7 +102,7 @@ export class ThumbDirective implements OnInit {
         if (this.stripICC) { this.ts.thumbor.filter(`strip_icc()`); }
         if (this.upscale) { this.ts.thumbor.filter(`upscale()`); }
 
-        if (this.src.includes("localhost") || this.src.includes("127.0.0.1")) {
+        if (this.ts.disable) {
             this.el.nativeElement.src = this.src;
         } else {
             this.ts.thumbor.setImagePath(this.src);
