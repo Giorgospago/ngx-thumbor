@@ -1,6 +1,6 @@
 {
     "name": "ngx-thumbor",
-    "version": "0.0.21",
+    "version": "0.0.22",
     "peerDependencies": {
         "@angular/common": "^8.2.14",
         "@angular/core": "^8.2.14",
